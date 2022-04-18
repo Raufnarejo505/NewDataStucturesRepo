@@ -1,4 +1,7 @@
+//import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class Exam {
     //    Stack<Integer> stack = new Stack<Integer>();
@@ -27,24 +30,40 @@ public class Exam {
 //            stack1.push(stack2.pop());
 //        }
 //    }
+        Stack<Integer> stack = new Stack<Integer>();
+//        stack.push(4);
+        try{
+            stack.pop();
+        }
+        catch(Exception exception){
+            System.out.println("Eceptio occured");
+        }
+
+
+
+
 //    while(!stack1.isEmpty()){
 //        System.out.println(stack1.pop());
 //    }
 //}
-        LinkedList<Integer> LL = new LinkedList<Integer>();
-        LL.add(1);
-        LL.add(2);
-        LL.add(3);
-        LL.add(4);
-        LL.add(5);
-        LinkedList<Integer> LL2 = new LinkedList<Integer>();
-        LL2.add(6);
-        LL2.add(7);
-        LL2.add(8);
-        LL2.add(9);
-        LL2.add(10);
-        LinkedList<Integer> LL3 = new LinkedList<Integer>();
 
+//        ArrayList<Integer> arr = new ArrayList<Integer>();
+//        arr.add(6);
+//
+//        LinkedList<Integer> LL = new LinkedList<Integer>();
+//        LL.add(1);
+//        LL.add(2);
+//        LL.add(3);
+//        LL.add(4);
+//        LL.add(5);
+//        LinkedList<Integer> LL2 = new LinkedList<Integer>();
+//        LL2.add(6);
+//        LL2.add(7);
+//        LL2.add(8);
+//        LL2.add(9);
+//        LL2.add(10);
+//        LinkedList<Integer> LL3 = new LinkedList<Integer>();
+//
 
     }
 }
